@@ -1,0 +1,201 @@
+body 
+{
+    background: whitesmoke;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+ul
+{
+    background-color: #030c3f;
+    color: whitesmoke;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+li
+{ 
+    display: inline;
+    padding: 5%;
+    transition: .25s ease-in-out;
+    border-left: 1px solid whitesmoke;
+}
+
+li:first-of-type
+{
+    border: none;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5%; 
+    text-align: center;
+    transition: .25s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+ul li a::after 
+{
+    content: '';
+}
+
+ul li a:hover, footer p a:hover
+{
+    text-decoration: none;
+    color: #f2a022;
+}
+
+h1
+{
+    margin: 5% auto;
+    text-align: center;
+    color: #030c3f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p 
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+table 
+{
+    color: #030c3f;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+
+th 
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #030c3f;
+    transition: .25s ease-in-out;
+}
+
+th:hover
+{
+    color: #f2a022;
+}
+
+tr 
+{
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+td 
+{
+    padding: 1%; 
+    text-align: center;
+}
+
+td a 
+{
+    color: #030c3f;
+    transition: .25s ease-in-out;
+}
+
+td a:hover
+{
+    color:#f2a022;
+}
+
+fieldset 
+{
+    background-color: whitesmoke;
+    border: 1px #030c3f solid;
+    text-align: center;
+    padding: 2%;
+}
+
+label 
+{
+    color: #030c3f;
+    margin: 2%;
+}
+
+input 
+{
+    margin-top: 20px;
+}
+
+.sub
+{
+    background-color: #030c3f;
+    color: whitesmoke;
+    border: 1px #030c3f solid;
+    border-radius: 2px;
+    margin: 2%;
+    padding: 1%;
+    transition: .25s ease-in-out;
+}
+
+.sub:hover
+{
+    color: #f2a022;
+}
+
+footer
+{
+    background-color: #030c3f;
+    color: whitesmoke;
+    padding: .5rem 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+}
+
+footer p a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: .25s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home 
+{
+    background: url("logo_cargo.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.logoHome 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6.5rem;
+}
+
+.red_homepage 
+{
+    margin-top: 10rem;
+}
+/*
+
+#d97513
+
+#09cacf
+
+#f2a022
+*/
