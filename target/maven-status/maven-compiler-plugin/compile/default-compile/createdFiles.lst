@@ -1,9 +1,11 @@
+org/tss/engim/FormEditTariffaCorriere.class
 org/tss/engim/PM$EMap.class
 org/tss/engim/dao/DAOGenerico.class
 org/tss/engim/HomePage.class
 org/tss/engim/WicketApplication.class
 org/tss/engim/db/Articolo.class
 org/tss/engim/PaginaOrdini$2.class
+org/tss/engim/AzioniPanel$1.class
 org/tss/engim/PaginaOrdini.class
 org/tss/engim/dao/OrdineDAO.class
 org/tss/engim/PM$EntityMapMXBean.class
@@ -12,6 +14,7 @@ org/tss/engim/db/Ordine.class
 org/tss/engim/SPLDModel.class
 org/tss/engim/db/ChiavePrimaria.class
 org/tss/engim/PaginaOrdini$1.class
+org/tss/engim/PaginaTariffe$1.class
 org/tss/engim/PaginaBase.class
 org/tss/engim/db/Voce.class
 org/tss/engim/NavMenu.class
@@ -23,4 +26,5 @@ org/tss/engim/db/TariffaCorriere.class
 org/tss/engim/PaginaTariffe.class
 org/tss/engim/PM.class
 org/tss/engim/PaginaArticoli.class
+org/tss/engim/AzioniPanel.class
 org/tss/engim/SPDataProvider.class

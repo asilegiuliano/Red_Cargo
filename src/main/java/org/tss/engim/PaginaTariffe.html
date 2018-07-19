@@ -1,8 +1,48 @@
 <wicket:extend>
-  <h1>Pagina Tariffe</h1>
-
-  <table wicket:id="tariffe">
-    
-  </table>
   
+  <div id="paginaTariffe">
+    <div class="container-fluid">
+      <h1>Pagina Tariffe</h1>
+
+      <table wicket:id="tariffe">
+
+      </table>
+
+      <form wicket:id="editTariffaCorriere">
+        <fieldset>
+          <div class="form-row">
+            <div class="col-md-6">
+              <label for="nomeCorriere">Nome Corriere:
+                <input type="text" wicket:id="nomeCorriere" id="nomeCorriere">
+              </label>
+            </div>
+            <div class="col-md-6">
+              <label for="nomeTariffa">Nome Tariffa:
+                <input type="text" wicket:id="nomeTariffa" id="nomeTariffa">
+              </label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6">
+              <label for="pesoMassimo">Peso Massimo:
+                <input type="number" wicket:id="pesoMassimo" id="pesoMassimo">
+              </label>
+            </div>
+            <div class="col-md-6">
+              <label for="costo">Costo:
+                <input type="number" wicket:id="costo" id="costo">
+              </label>
+            </div>
+          </div>
+          <br>
+          <button type="submit" value="Salva" class="btn btn-outline-dark"> Salva
+          <!-- <input type="submit" value="Salva"> -->
+          </button>
+        </fieldset>
+        
+        <span wicket:id="feedback"></span>
+        
+      </form> 
+    </div>
+  </div>
 </wicket:extend>
